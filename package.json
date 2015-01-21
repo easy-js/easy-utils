@@ -1,0 +1,33 @@
+{
+  "name": "easy-utils",
+  "description": "Common utils for the `easy-js` suite of libraries.",
+  "author": "Jarid Margolin <jarid@firstopinion.co>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/easy-js/easy-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easy-js/easy-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/easy-js/easy-utils/issues"
+  },
+  "main": "lib/utils.js",
+  "scripts": {
+    "mocha": "./node_modules/.bin/mocha --reporter spec",
+    "jshint": "./node_modules/.bin/jshint --reporter node_modules/jshint-stylish-ex/stylish.js lib test",
+    "test": "npm run jshint && npm run mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "assist.js": "~0.4.0",
+    "ducktail.js": "~0.0.4",
+    "underscore": "~1.6.0",
+    "underscore-companion.js": "~0.0.1"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "jshint": "~2.5.11",
+    "jshint-stylish-ex": "~0.2.0",
+    "mocha": "~2.1.0"
+  }
+}
