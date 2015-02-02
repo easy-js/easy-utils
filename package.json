@@ -2,7 +2,7 @@
   "name": "easy-utils",
   "description": "Common utils for the `easy-js` suite of libraries.",
   "author": "Jarid Margolin <jarid@firstopinion.co>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/easy-js/easy-utils",
   "repository": {
     "type": "git",
